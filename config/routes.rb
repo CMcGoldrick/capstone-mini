@@ -10,6 +10,16 @@ Rails.application.routes.draw do
   get '/suppliers/:id' => 'suppliers#show'
   patch '/suppliers/:id' => 'suppliers#update'
   delete '/suppliers/:id' => 'suppliers#destroy'
+
+  post '/user_token' => 'user_token#create'
+  post '/users' => 'users#create'
+
+  get '/orders' => 'orders#index'
+  post '/orders' => 'orders#create'
+
+  get '/categories' => 'categories#index'
 end
 
 # http://localhost:3000/products?search=soccer
+
+
