@@ -18,7 +18,11 @@ Rails.application.routes.draw do
   post '/orders' => 'orders#create'
 
   get '/categories' => 'categories#index'
-end
+
+  get '/carted_products' => 'carted_products#index'
+  post '/carted_products' => 'carted_producst#create'
+  #ALWAYS CREATE ROUTE AFTER CREATING CONTROLLER!!!
+ end
 
 # http://localhost:3000/products?search=soccer
 

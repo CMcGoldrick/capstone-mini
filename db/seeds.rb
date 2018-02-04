@@ -6,16 +6,16 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Category.create(name: "electronics")
-Category.create(name: "furniture")
-Category.create(name: "misc")
+# Category.create(name: "electronics")
+# Category.create(name: "furniture")
+# Category.create(name: "misc")
 
-CategoryProduct.create([
-                        {category_id: 1, product_id: 2},
-                        {category_id: 1, product_id: 5},
-                        {category_id: 2, product_id: 2},
-                        {category_id: 2, product_id: 4},
-                        {category_id: 2, product_id: 6},
-                        {category_id: 3, product_id: 1}
-                        ])
+# CategoryProduct.create([
+#                         {category_id: 1, product_id: 2},
+#                         {category_id: 1, product_id: 5},
+#                         {category_id: 2, product_id: 2},
+#                         {category_id: 2, product_id: 4},
+#                         {category_id: 2, product_id: 6},
+#                         {category_id: 3, product_id: 1}
+#                         ])
                       
