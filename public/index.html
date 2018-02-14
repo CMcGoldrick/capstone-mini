@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>mini-capstone | index</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="products.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet"> -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+<div class = "container">
+        <h1>All products</h1>
+
+        <div class="row">
+            <!-- repeating code... -->
+        </div>
+  
+<template id="product-card">   
+  <div class="row"> 
+    <div class="col-md-4">
+      <div class="card mb-5">
+        <img class="card-img-top" src="http://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03381085.png">
+        <div class = "card-body"> 
+          <h4 class="card-title">Product</h4>           
+          <p class="name">name: wireless mouse</p>
+          <p class="description">description: HP X4500 Wireless (black) mouse</p>
+          
+          <a class="btn btn-primary float-right" href="/products/1">More Info</a>
+        </div>
+      </div>
+    </div>  
+  </div> 
+</template>
+  
+</body>
+</html>
